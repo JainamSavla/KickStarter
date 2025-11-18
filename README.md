@@ -87,14 +87,14 @@ cd crowdfunding
 
 Create an env for backend with this 
 ```bash
-PRIVATE_KEY=e8cab10133c11c5b850f2e86c982b31649b82963ac24576186571a11607cc116
-THIRDWEB_CLIENT_ID=e37c75b8830821c31d681ca4d7080c24
-THIRDWEB_SECRET_KEY=rB36dQD4841a8E1pvUuQsEddnrivcAOYDe19sSLVd1dyTUEsqIgQrKAAFwzZqzTdJ3sgVdpEF9MTcHQbbzOefA
+PRIVATE_KEY=GET FROM METAMASK 
+THIRDWEB_CLIENT_ID=Get from  WEB3 Dashboard after creating project
+THIRDWEB_SECRET_KEY=Get from  WEB3 Dashboard after creating project
 ```
 Create an env for Frontend with this 
 ```bash
-VITE_THIRDWEB_CLIENT_ID=e37c75b8830821c31d681ca4d7080c24
-VITE_CONTRACT_ADDRESS=0x23ad905590750baaba53da5739e5d632dcb50a49
+VITE_THIRDWEB_CLIENT_ID=Get from  WEB3 Dashboard after creating project
+VITE_CONTRACT_ADDRESS=Get from WEB3 Dashboard after deploying project  npm run deploy -- -k your_secret_key
 
 ```
 ## 📸 Screenshots
@@ -108,4 +108,5 @@ VITE_CONTRACT_ADDRESS=0x23ad905590750baaba53da5739e5d632dcb50a49
 <img width="1312" height="762" alt="image" src="https://github.com/user-attachments/assets/85986c02-cc70-4e1b-a16f-d8e68622a2ed" />
 
 Made with MERN STACK +WEB3
+
 
