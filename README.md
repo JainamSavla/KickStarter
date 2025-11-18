@@ -81,16 +81,31 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** crowdfunding applicatio
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/crowdfunding.git
+git clone https://github.com/JainamSavla/crowdfunding.git
 cd crowdfunding
 ```
-📸 Screenshots
-Homepage
+
+Create an env for backend with this 
+```bash
+PRIVATE_KEY=e8cab10133c11c5b850f2e86c982b31649b82963ac24576186571a11607cc116
+THIRDWEB_CLIENT_ID=e37c75b8830821c31d681ca4d7080c24
+THIRDWEB_SECRET_KEY=rB36dQD4841a8E1pvUuQsEddnrivcAOYDe19sSLVd1dyTUEsqIgQrKAAFwzZqzTdJ3sgVdpEF9MTcHQbbzOefA
+```
+Create an env for Frontend with this 
+```bash
+VITE_THIRDWEB_CLIENT_ID=e37c75b8830821c31d681ca4d7080c24
+VITE_CONTRACT_ADDRESS=0x23ad905590750baaba53da5739e5d632dcb50a49
+
+```
+## 📸 Screenshots
+### Homepage
 <img width="1425" height="752" alt="image" src="https://github.com/user-attachments/assets/30f4437e-6caa-4389-af22-71e92750eb01" />
 
-Campaign Creation
+### Campaign Creation
 <img width="1529" height="783" alt="image" src="https://github.com/user-attachments/assets/3ec97582-8e96-4655-8f66-0a68ec88952b" />
 
-Campaign Details
+### Campaign Details
 <img width="1312" height="762" alt="image" src="https://github.com/user-attachments/assets/85986c02-cc70-4e1b-a16f-d8e68622a2ed" />
+
+Made with MERN STACK +WEB3
 
